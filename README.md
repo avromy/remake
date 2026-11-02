@@ -10,6 +10,15 @@ One line in Claude Code turns a URL into a copy that matches the original on eve
 
 </div>
 
+## Guides for this fork
+
+- [Reusable workflow and Claude Code / ChatGPT / Codex / Agent Zero compatibility](docs/REUSE-GUIDE.md)
+- [Ready-to-paste Sola Payments trial prompt](docs/prompts/SOLA-PAYMENTS.md)
+
+The guide explains how to use `avromy/remake` explicitly, including the inherited setup commands that still reference the upstream repository. Compatibility was reviewed in source code; the Sola trial has not been executed.
+
+### Upstream quick start
+
 ```text
 /goal Remake https://example.com with github.com/rubenhassid1/remake until its report says REMAKE COMPLETE, or stop after 100 turns.
 ```
@@ -143,3 +152,4 @@ Remake is made by Ruben Hassid, who writes [How to AI](https://ruben.substack.co
 [Substack](https://ruben.substack.com) · [LinkedIn](https://www.linkedin.com/in/ruben-hassid) · [X](https://x.com/rubenhassid)
 
 If Remake saved you a week, [subscribe](https://ruben.substack.com) for the next tool.
+
